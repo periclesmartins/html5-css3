@@ -1,0 +1,5 @@
+background-color: #ffffff;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 8px 0px #0000007a;

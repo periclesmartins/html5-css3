@@ -1,0 +1,7 @@
+Seletores personalizados:
+
+#  =  id
+.   =  class
+:   =  pseudo-class
+::  =  pseudo-element
+>  =  children

@@ -1,0 +1,15 @@
+body {
+    background-color: #66c9a8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: #ffffff;
+    background-color: #4d977e;
+}
+h2 {
+    color: #f5f5dc;
+}
+p {
+    text-align: justify;
+}

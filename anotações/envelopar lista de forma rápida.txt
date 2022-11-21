@@ -1,0 +1,2 @@
+Uma dica de emmet para envelopar de forma rápida todas as li's' já com a tag abbr:
+Comando - CTRL + SHIFT + P , Enter , li*>abbr
