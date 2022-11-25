@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: #000000;
+            /*background-color: #000000;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+            color > image > position > repeat > [size] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') no-repeat fixed center center;
+            background-size: cover;
         }
         main {
             background-color: #ffffff;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
-            border: 1px solid #c300ff;
+            border: 1px solid #00ffd5;
             border-radius: 10px;
         }
     </style>
@@ -27,6 +34,7 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quidem perferendis vitae deserunt iste, praesentium nobis magnam enim cupiditate sequi suscipit est, officiis, libero consequatur omnis laboriosam adipisci. Harum eos delectus ipsa possimus sed esse ipsam, aut, voluptatum officiis cum reprehenderit rerum deserunt animi doloribus modi commodi molestiae laborum incidunt similique quis. Temporibus, consequatur similique. Reiciendis dicta harum soluta quasi veniam fuga voluptas sunt alias itaque eum ipsam tempore doloribus quisquam maiores explicabo animi delectus magni ipsum eaque hic, incidunt atque corporis aperiam? Facilis cum dolore dolorem aspernatur est nesciunt ipsam officiis? At iste, fuga asperiores sint dolores nam inventore praesentium aperiam nisi alias voluptatibus hic illum voluptatum unde porro provident temporibus sequi rerum assumenda harum itaque expedita repudiandae ab earum. Officia, eveniet. Sequi ad dolorem rerum sed veniam laborum esse suscipit. Amet, accusamus sequi fugit similique eveniet architecto odit dolores pariatur veritatis expedita! Odio cumque quis veritatis culpa dolores pariatur vitae laborum, a libero totam nisi voluptatum tempora incidunt assumenda? Architecto eaque natus soluta? Enim quas fugiat voluptatum error sunt laudantium deleniti? Beatae aut commodi quisquam. Ad quos hic aliquam cumque, vero sit suscipit repellat architecto eveniet placeat consectetur, laboriosam at a incidunt facere nisi voluptatum, asperiores deserunt nihil.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quidem perferendis vitae deserunt iste, praesentium nobis magnam enim cupiditate sequi suscipit est, officiis, libero consequatur omnis laboriosam adipisci. Harum eos delectus ipsa possimus sed esse ipsam, aut, voluptatum officiis cum reprehenderit rerum deserunt animi doloribus modi commodi molestiae laborum incidunt similique quis. Temporibus, consequatur similique. Reiciendis dicta harum soluta quasi veniam fuga voluptas sunt alias itaque eum ipsam tempore doloribus quisquam maiores explicabo animi delectus magni ipsum eaque hic, incidunt atque corporis aperiam? Facilis cum dolore dolorem aspernatur est nesciunt ipsam officiis? At iste, fuga asperiores sint dolores nam inventore praesentium aperiam nisi alias voluptatibus hic illum voluptatum unde porro provident temporibus sequi rerum assumenda harum itaque expedita repudiandae ab earum. Officia, eveniet. Sequi ad dolorem rerum sed veniam laborum esse suscipit. Amet, accusamus sequi fugit similique eveniet architecto odit dolores pariatur veritatis expedita! Odio cumque quis veritatis culpa dolores pariatur vitae laborum, a libero totam nisi voluptatum tempora incidunt assumenda? Architecto eaque natus soluta? Enim quas fugiat voluptatum error sunt laudantium deleniti? Beatae aut commodi quisquam. Ad quos hic aliquam cumque, vero sit suscipit repellat architecto eveniet placeat consectetur, laboriosam at a incidunt facere nisi voluptatum, asperiores deserunt nihil.</p>
     </main>
 </body>
