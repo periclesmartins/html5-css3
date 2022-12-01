@@ -1,0 +1,2 @@
+Acrescentar emoji no html
+Veja como fica a sua sintaxe: Se for hexadecimal você sempre colocará o &#x, já o &# será para o decimal, o código é o que diferencia o emoji. Vamos ver como funciona. O emoji &#x1F60E; tá no formato do hexadecimal, já o &#128540; está com o formato decimal.
