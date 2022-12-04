@@ -51,6 +51,7 @@ header a:hover, footer a:hover {
 .paragrafos {
     font-family: var(--fonte2);
     font-size: 4vw;
+    text-shadow: 1px 1px 0px #000000;
 }
 
 section {
@@ -66,16 +67,29 @@ section.normal {
 }
 
 section.imagem {
-    background-color: #0000006b;
+    background-color: #0000003f;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px #0000004d;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > pre {
     display: inline-block;
-    background-color: #02224d4b;
+    background-color: #0115304d;
     border-radius: 5px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: left center;
 }
 
 footer {
