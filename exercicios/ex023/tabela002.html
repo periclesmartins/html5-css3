@@ -28,6 +28,9 @@
             background-color: #808080;
             color: #ffffff;
         }
+        tbody > tr:nth-child(2n) { /*efeito zebrado na tabela*/
+            background-color: #808080;
+        }
         td.num {
             text-align: right;
         }
@@ -50,8 +53,8 @@
         <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -70,7 +73,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>84.370.783</strong></td>
             </tr>
         </tfoot>
