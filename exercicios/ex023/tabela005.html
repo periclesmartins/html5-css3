@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid #000000;
+            padding: 8px;
+        }
+        .amarelo {
+            background-color: #ffff0056;
+        }
+        .azul {
+            background-color: #006eff5d;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="azul" span="2">
+            <col class="amarelo">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Pâmella</td>
+            <td>Feminino</td>
+            <td>17</td>
+            <td>Gamer</td>
+        </tr>
+        <tr>
+            <td>Péricles</td>
+            <td>Masculino</td>
+            <td>25</td>
+            <td>Desenvolvedor</td>
+        </tr>
+        <tr>
+            <td>Erlândia</td>
+            <td>Feminino</td>
+            <td>40</td>
+            <td>Tec. Enfermagem</td>
+        </tr>
+        <tr>
+            <td>Alef</td>
+            <td>Masculino</td>
+            <td>23</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr>
+            <td>Magali</td>
+            <td>Feminino</td>
+            <td>13</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Joseph</td>
+            <td>Masculino</td>
+            <td>11</td>
+            <td>Estudante</td>
+        </tr>
+    </table>
+</body>
+</html>
