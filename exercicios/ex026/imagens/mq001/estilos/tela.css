@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/* Estilo para telas */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #add8e6;
+}
+
+header {
+    background-color: #add8e6;
+}
+
+header > h1 {
+    text-align: center;
+    text-shadow: 1px 1px 5px #00000066;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    color: #f6f6f6;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: #94d2e6;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+menu li {
+    background-color: #68c7e6;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #00000028;
+}
+
+li:hover {
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+article {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #00000052;
+
+    width: 600px;
+    display: block;
+    margin: auto;
+}
